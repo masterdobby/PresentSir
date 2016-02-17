@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="Days"
+        android:summary="Click to start counting your attendance."
+        android:title="Start Counting" />
+    <Preference
+        android:key="MyAttendance"
+        android:summary="Click to see your attendance."
+        android:title="My Attendance" />
+    <Preference
+        android:key="TimeTable"
+        android:summary="Click to see your time table."
+        android:title="Time Table" />
+    <Preference
+        android:key="SemesterEnds"
+        android:summary="Click to see your tentative grade."
+        android:title="Semester Ends" />
+    <CheckBoxPreference
+        android:key="Holidays"
+        android:summary="Click to disable the app during a holiday."
+        android:title="Holidays" />
+
+</PreferenceScreen>
